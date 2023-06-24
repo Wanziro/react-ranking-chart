@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { IdataVisualizer } from "../../App";
-import "./index.css";
 
 interface IDataItemProps {
   item: IdataVisualizer;
@@ -19,13 +18,21 @@ function DataItem({ item, highestValue, allItems }: IDataItemProps) {
     }
   }, [item, allItems]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (!highestValue) return;
+    const per = (item.value / highestValue.value) * 100;
+    setPercentage(Number(per.toFixed(2)));
+  }, [highestValue]);
   return (
-    <div className="item-container" style={{ top: position * 35 }}>
-      {item.name}{" "}
-      <span>
-        {item.value} (%{percentage})
-      </span>
+    <div
+      className="item-container"
+      style={{ top: position * 45, width: percentage + "%" }}
+    >
+      <div className="item-contents-wrapper">
+        <p>{item.name}</p>
+        <div className="bar"></div>
+        <p>{item.value}</p>
+      </div>
     </div>
   );
 }

@@ -117,7 +117,7 @@ function App() {
     );
   }, [currentDateCounter]);
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", width: "100%" }}>
       {dataVisualizer.map((item, index) => (
         <DataItem
           key={index}
