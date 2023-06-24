@@ -1,162 +1,214 @@
 [
-    {
-      "name": "friends",
-      "date": "02/2004",
-      "value": 2000
-    },
-    {
-      "name": "friends",
-      "date": "03/2004",
-      "value": 3000
-    },
-    {
-      "name": "friends",
-      "date": "04/2004",
-      "value": 3500
-    },
-    {
-      "name": "friends",
-      "date": "05/2004",
-      "value": 3900
-    },
-    {
-      "name": "friends",
-      "date": "06/2004",
-      "value": 4100
-    },
-    {
-      "name": "friends",
-      "date": "07/2004",
-      "value": 5000
-    },
-    {
-      "name": "friends",
-      "date": "08/2004",
-      "value": 5500
-    },
-    {
-      "name": "friends",
-      "date": "09/2004",
-      "value": 7000
-    },
-    {
-      "name": "friends",
-      "date": "10/2004",
-      "value": 9000
-    },
-    {
-      "name": "friends",
-      "date": "11/2004",
-      "value": 9500
-    },
-    {
-      "name": "friends",
-      "date": "03/2004",
-      "value": 11900
-    },
+  {
+    "name": "friends",
+    "date": "02/2004",
+    "value": 2000,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "03/2004",
+    "value": 3000,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "04/2004",
+    "value": 3500,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "05/2004",
+    "value": 3900,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "06/2004",
+    "value": 4100,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "07/2004",
+    "value": 5000,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "08/2004",
+    "value": 5500,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "09/2004",
+    "value": 7000,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "10/2004",
+    "value": 9000,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "11/2004",
+    "value": 9500,
+    "color": "blue"
+  },
+  {
+    "name": "friends",
+    "date": "03/2004",
+    "value": 11900,
+    "color": "blue"
+  },
 
+  {
+    "name": "the shield",
+    "date": "01/2004",
+    "value": 50,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "02/2004",
+    "value": 2100,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "03/2004",
+    "value": 2000,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "04/2004",
+    "value": 1500,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "05/2004",
+    "value": 3100,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "06/2004",
+    "value": 2250,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "07/2004",
+    "value": 10000,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "08/2004",
+    "value": 100,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "09/2004",
+    "value": 1000,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "10/2004",
+    "value": 105,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "11/2004",
+    "value": 3000,
+    "color": "red"
+  },
+  {
+    "name": "the shield",
+    "date": "12/2004",
+    "value": 400,
+    "color": "red"
+  },
 
-    {
-      "name": "the shield",
-      "date": "01/2004",
-      "value": 50
-    },{
-      "name": "the shield",
-      "date": "02/2004",
-      "value": 2100
-    },{
-      "name": "the shield",
-      "date": "03/2004",
-      "value": 2000
-    },{
-      "name": "the shield",
-      "date": "04/2004",
-      "value": 1500
-    },{
-      "name": "the shield",
-      "date": "05/2004",
-      "value": 3100
-    },{
-      "name": "the shield",
-      "date": "06/2004",
-      "value": 2250
-    },{
-      "name": "the shield",
-      "date": "07/2004",
-      "value": 10000
-    },{
-      "name": "the shield",
-      "date": "08/2004",
-      "value": 100
-    },{
-      "name": "the shield",
-      "date": "09/2004",
-      "value": 1000
-    },{
-      "name": "the shield",
-      "date": "10/2004",
-      "value": 105
-    },{
-      "name": "the shield",
-      "date": "11/2004",
-      "value": 3000
-    },{
-      "name": "the shield",
-      "date": "12/2004",
-      "value": 400
-    },
-
-
-    {
-      "name": "E.R.",
-      "date": "01/2004",
-      "value": 100
-    },{
-      "name": "E.R.",
-      "date": "02/2004",
-      "value": 2500
-    },{
-      "name": "E.R.",
-      "date": "03/2004",
-      "value": 350
-    },{
-      "name": "E.R.",
-      "date": "04/2004",
-      "value": 50
-    },{
-      "name": "E.R.",
-      "date": "05/2004",
-      "value": 10
-    },{
-      "name": "E.R.",
-      "date": "06/2004",
-      "value": 5000
-    },{
-      "name": "E.R.",
-      "date": "07/2004",
-      "value": 500
-    },{
-      "name": "E.R.",
-      "date": "08/2004",
-      "value": 100
-    },{
-      "name": "E.R.",
-      "date": "09/2004",
-      "value": 90
-    },{
-      "name": "E.R.",
-      "date": "10/2004",
-      "value": 100000
-    },{
-      "name": "E.R.",
-      "date": "11/2004",
-      "value": 200
-    },{
-      "name": "E.R.",
-      "date": "12/2004",
-      "value": 0
-    }
-
-
-
-  ]
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "01/2004",
+    "value": 100
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "02/2004",
+    "value": 2500
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "03/2004",
+    "value": 350
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "04/2004",
+    "value": 50
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "05/2004",
+    "value": 10
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "06/2004",
+    "value": 5000
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "07/2004",
+    "value": 500
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "08/2004",
+    "value": 100
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "09/2004",
+    "value": 90
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "10/2004",
+    "value": 100000
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "11/2004",
+    "value": 200
+  },
+  {
+    "name": "E.R.",
+    "color": "yellow",
+    "date": "12/2004",
+    "value": 0
+  }
+]

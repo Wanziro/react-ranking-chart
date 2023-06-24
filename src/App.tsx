@@ -7,12 +7,14 @@ interface Idata {
   name: string;
   date: string;
   value: number;
+  color: string;
 }
 
 export interface IdataVisualizer {
   name: string;
   date: string;
   value: number;
+  color: string;
   updatedValue: number;
 }
 

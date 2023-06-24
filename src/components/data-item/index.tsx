@@ -26,11 +26,11 @@ function DataItem({ item, highestValue, allItems }: IDataItemProps) {
   return (
     <div
       className="item-container"
-      style={{ top: position * 45, width: percentage + "%" }}
+      style={{ top: position * 40, width: percentage + "%" }}
     >
       <div className="item-contents-wrapper">
         <p>{item.name}</p>
-        <div className="bar"></div>
+        <div className="bar" style={{ backgroundColor: item.color }}></div>
         <p>{item.value}</p>
       </div>
     </div>
