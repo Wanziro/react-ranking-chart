@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import movieData from "./data/movies.json";
+import DataItem from "./components/data-item";
 
 interface Idata {
   name: string;
@@ -8,7 +9,7 @@ interface Idata {
   value: number;
 }
 
-interface IdataVisualizer {
+export interface IdataVisualizer {
   name: string;
   date: string;
   value: number;
@@ -24,6 +25,9 @@ function App() {
   const [sortedDates, setSortedDates] = useState<string[]>([]);
   const [dataVisualizer, setDataVisualizer] = useState<IdataVisualizer[]>([]);
   const [currentDateCounter, setCurrentDateCounter] = useState(0);
+  const [highestValue, setHighestValue] = useState<undefined | IdataVisualizer>(
+    undefined
+  );
 
   useEffect(() => {
     const uniqueDates = Array.from(new Set(data.map((obj) => obj.date)));
@@ -45,8 +49,7 @@ function App() {
           .filter(
             (item) =>
               // item.date.toLocaleLowerCase().includes(sortedDates[0])
-              item.date.toLocaleLowerCase() ===
-              sortedDates[0].toLocaleLowerCase()
+              item.date.toLowerCase() === sortedDates[0].toLowerCase()
           )
           .map((item) => {
             return { ...item, updatedValue: item.value, value: 0 };
@@ -56,6 +59,7 @@ function App() {
     const sortedUniqueNamesBasedOnHighestValue = uniqueNames.sort((a, b) => {
       return b.updatedValue - a.updatedValue;
     });
+    setHighestValue(sortedUniqueNamesBasedOnHighestValue[0]);
     setDataVisualizer(sortedUniqueNamesBasedOnHighestValue);
   }, [data]);
 
@@ -76,19 +80,26 @@ function App() {
   }, [sortedDates, currentDateCounter]);
 
   useEffect(() => {
+    if (sortedDates.length === 0) return;
     const newState = dataVisualizer;
     const dataToUse = data.filter(
-      (item) =>
-        item.date.toLocaleLowerCase() ===
-        sortedDates[currentDateCounter]?.toLocaleLowerCase()
+      (item) => item.date === sortedDates[currentDateCounter]
     );
     for (let i = 0; i < dataToUse.length; i++) {
       const index = newState.findIndex(
-        (item) => item.name === dataToUse[i].name
+        (item) => item.name.toLowerCase() === dataToUse[i].name.toLowerCase()
       );
       if (index > -1) {
-        newState[index].value += Number(dataToUse[i].value);
-        newState[index].updatedValue = Number(dataToUse[i].value);
+        newState[index] = {
+          ...dataToUse[i],
+          value:
+            newState[index].value === 0 && newState[index].updatedValue === 0
+              ? newState[index].value +
+                newState[index].updatedValue +
+                Number(dataToUse[i].value)
+              : newState[index].value + Number(dataToUse[i].value),
+          updatedValue: Number(dataToUse[i].value),
+        };
       } else {
         newState.push({
           ...dataToUse[i],
@@ -98,9 +109,25 @@ function App() {
       }
     }
     setDataVisualizer(newState);
+    const highestVal = [...newState];
+    setHighestValue(
+      highestVal.sort((a, b) => {
+        return b.value - a.value;
+      })[0]
+    );
   }, [currentDateCounter]);
-  console.log({ dataVisualizer });
-  return <div>{currentDateCounter}</div>;
+  return (
+    <div style={{ position: "relative" }}>
+      {dataVisualizer.map((item, index) => (
+        <DataItem
+          key={index}
+          item={item}
+          allItems={dataVisualizer}
+          highestValue={highestValue}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default App;
