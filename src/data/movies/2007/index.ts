@@ -23,5 +23,5 @@ export const movies_for_2007 = [
   ...theOc,
   ...thePractice,
   ...theShield,
-  theSopranos,
+  ...theSopranos,
 ];
