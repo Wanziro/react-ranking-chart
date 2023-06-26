@@ -8,7 +8,7 @@
   {
     "name": "the shield",
     "date": "02/2004",
-    "value": 2100,
+    "value": 5100,
     "color": "red"
   },
   {
@@ -20,19 +20,19 @@
   {
     "name": "the shield",
     "date": "04/2004",
-    "value": 1500,
+    "value": 10500,
     "color": "red"
   },
   {
     "name": "the shield",
     "date": "05/2004",
-    "value": 3100,
+    "value": 0,
     "color": "red"
   },
   {
     "name": "the shield",
     "date": "06/2004",
-    "value": 2250,
+    "value": 0,
     "color": "red"
   },
   {
@@ -44,31 +44,31 @@
   {
     "name": "the shield",
     "date": "08/2004",
-    "value": 100,
+    "value": 0,
     "color": "red"
   },
   {
     "name": "the shield",
     "date": "09/2004",
-    "value": 1000,
+    "value": 0,
     "color": "red"
   },
   {
     "name": "the shield",
     "date": "10/2004",
-    "value": 105,
+    "value": 0,
     "color": "red"
   },
   {
     "name": "the shield",
     "date": "11/2004",
-    "value": 3000,
+    "value": 0,
     "color": "red"
   },
   {
     "name": "the shield",
     "date": "12/2004",
-    "value": 400,
+    "value": 300,
     "color": "red"
   }
 ]

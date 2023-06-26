@@ -9,7 +9,8 @@ import sexAndTheCity from "./sex-and-the-city.json";
 import theOc from "./the-oc.json";
 import thePractice from "./the-practice.json";
 import theShield from "./the-shield.json";
-import theSopranos from "./the-sopranos.json";
+import veronica from "./veronica.json";
+import prison from "./prison-break.json";
 
 export const movies_for_2006 = [
   ...battlestar,
@@ -23,5 +24,6 @@ export const movies_for_2006 = [
   ...theOc,
   ...thePractice,
   ...theShield,
-  ...theSopranos,
+  ...veronica,
+  ...prison,
 ];

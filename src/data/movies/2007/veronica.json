@@ -1,37 +1,37 @@
 [
   {
     "name": "veronica Mars",
-    "color": "red",
+    "color": "gray",
     "date": "07/2007",
     "value": 500
   },
   {
     "name": "veronica Mars",
-    "color": "red",
+    "color": "gray",
     "date": "08/2007",
     "value": 100
   },
   {
     "name": "veronica Mars",
-    "color": "red",
+    "color": "gray",
     "date": "09/2007",
-    "value": 90
+    "value": 90000
   },
   {
     "name": "veronica Mars",
-    "color": "red",
+    "color": "gray",
     "date": "10/2007",
     "value": 100000
   },
   {
     "name": "veronica Mars",
-    "color": "red",
+    "color": "gray",
     "date": "11/2007",
     "value": 200
   },
   {
     "name": "veronica Mars",
-    "color": "red",
+    "color": "gray",
     "date": "12/2007",
     "value": 0
   }

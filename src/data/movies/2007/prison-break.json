@@ -1,38 +1,38 @@
 [
   {
-    "name": "veronica Mars",
-    "color": "red",
+    "name": "prison break",
+    "color": "orange",
     "date": "07/2007",
-    "value": 500
+    "value": 5000
   },
   {
-    "name": "veronica Mars",
-    "color": "red",
+    "name": "prison break",
+    "color": "orange",
     "date": "08/2007",
-    "value": 100
+    "value": 10000
   },
   {
-    "name": "veronica Mars",
-    "color": "red",
+    "name": "prison break",
+    "color": "orange",
     "date": "09/2007",
-    "value": 90
+    "value": 20000
   },
   {
-    "name": "veronica Mars",
-    "color": "red",
+    "name": "prison break",
+    "color": "orange",
     "date": "10/2007",
-    "value": 100000
+    "value": 150000
   },
   {
-    "name": "veronica Mars",
-    "color": "red",
+    "name": "prison break",
+    "color": "orange",
     "date": "11/2007",
-    "value": 200
+    "value": 20000
   },
   {
-    "name": "veronica Mars",
-    "color": "red",
+    "name": "prison break",
+    "color": "orange",
     "date": "12/2007",
-    "value": 0
+    "value": 5000
   }
 ]

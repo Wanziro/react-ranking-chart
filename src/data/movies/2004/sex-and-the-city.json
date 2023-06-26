@@ -2,62 +2,44 @@
   {
     "name": "sex and the city",
     "color": "green",
-    "date": "01/2004",
-    "value": 100
-  },
-  {
-    "name": "sex and the city",
-    "color": "green",
-    "date": "02/2004",
-    "value": 2500
-  },
-  {
-    "name": "sex and the city",
-    "color": "green",
-    "date": "03/2004",
-    "value": 350
-  },
-  {
-    "name": "sex and the city",
-    "color": "green",
     "date": "04/2004",
-    "value": 50
+    "value": 40
   },
   {
     "name": "sex and the city",
     "color": "green",
     "date": "05/2004",
-    "value": 10
-  },
-  {
-    "name": "sex and the city",
-    "color": "green",
-    "date": "06/2004",
-    "value": 5000
-  },
-  {
-    "name": "sex and the city",
-    "color": "green",
-    "date": "07/2004",
-    "value": 500
-  },
-  {
-    "name": "sex and the city",
-    "color": "green",
-    "date": "08/2004",
     "value": 100
   },
   {
     "name": "sex and the city",
     "color": "green",
+    "date": "06/2004",
+    "value": 52000
+  },
+  {
+    "name": "sex and the city",
+    "color": "green",
+    "date": "07/2004",
+    "value": 50
+  },
+  {
+    "name": "sex and the city",
+    "color": "green",
+    "date": "08/2004",
+    "value": 1000
+  },
+  {
+    "name": "sex and the city",
+    "color": "green",
     "date": "09/2004",
-    "value": 90
+    "value": 9000
   },
   {
     "name": "sex and the city",
     "color": "green",
     "date": "10/2004",
-    "value": 100000
+    "value": 10000
   },
   {
     "name": "sex and the city",
@@ -69,6 +51,6 @@
     "name": "sex and the city",
     "color": "green",
     "date": "12/2004",
-    "value": 0
+    "value": 20000
   }
 ]

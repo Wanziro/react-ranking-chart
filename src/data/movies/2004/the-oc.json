@@ -9,37 +9,37 @@
     "name": "the O.C",
     "color": "maroon",
     "date": "02/2004",
-    "value": 2500
+    "value": 2000
   },
   {
     "name": "the O.C",
     "color": "maroon",
     "date": "03/2004",
-    "value": 350
+    "value": 3500
   },
   {
     "name": "the O.C",
     "color": "maroon",
     "date": "04/2004",
-    "value": 50
-  },
-  {
-    "name": "the O.C",
-    "color": "maroon",
-    "date": "05/2004",
-    "value": 10
-  },
-  {
-    "name": "the O.C",
-    "color": "maroon",
-    "date": "06/2004",
     "value": 5000
   },
   {
     "name": "the O.C",
     "color": "maroon",
+    "date": "05/2004",
+    "value": 10000
+  },
+  {
+    "name": "the O.C",
+    "color": "maroon",
+    "date": "06/2004",
+    "value": 50
+  },
+  {
+    "name": "the O.C",
+    "color": "maroon",
     "date": "07/2004",
-    "value": 500
+    "value": 50
   },
   {
     "name": "the O.C",
@@ -57,13 +57,13 @@
     "name": "the O.C",
     "color": "maroon",
     "date": "10/2004",
-    "value": 100000
+    "value": 10000
   },
   {
     "name": "the O.C",
     "color": "maroon",
     "date": "11/2004",
-    "value": 200
+    "value": 20
   },
   {
     "name": "the O.C",

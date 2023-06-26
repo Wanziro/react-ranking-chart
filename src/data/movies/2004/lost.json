@@ -2,18 +2,6 @@
   {
     "name": "lost",
     "color": "pink",
-    "date": "01/2004",
-    "value": 100
-  },
-  {
-    "name": "lost",
-    "color": "pink",
-    "date": "02/2004",
-    "value": 2500
-  },
-  {
-    "name": "lost",
-    "color": "pink",
     "date": "03/2004",
     "value": 350
   },
@@ -21,13 +9,13 @@
     "name": "lost",
     "color": "pink",
     "date": "04/2004",
-    "value": 50
+    "value": 500
   },
   {
     "name": "lost",
     "color": "pink",
     "date": "05/2004",
-    "value": 10
+    "value": 1000
   },
   {
     "name": "lost",
@@ -39,7 +27,7 @@
     "name": "lost",
     "color": "pink",
     "date": "07/2004",
-    "value": 500
+    "value": 4500
   },
   {
     "name": "lost",
@@ -57,18 +45,18 @@
     "name": "lost",
     "color": "pink",
     "date": "10/2004",
-    "value": 100000
+    "value": 10000
   },
   {
     "name": "lost",
     "color": "pink",
     "date": "11/2004",
-    "value": 200
+    "value": 0
   },
   {
     "name": "lost",
     "color": "pink",
     "date": "12/2004",
-    "value": 0
+    "value": 10
   }
 ]

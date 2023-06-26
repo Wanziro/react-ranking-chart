@@ -3,7 +3,7 @@
     "name": "the practice",
     "color": "white",
     "date": "01/2004",
-    "value": 100
+    "value": 10000
   },
   {
     "name": "the practice",
@@ -27,7 +27,7 @@
     "name": "the practice",
     "color": "white",
     "date": "05/2004",
-    "value": 10
+    "value": 100
   },
   {
     "name": "the practice",
@@ -57,7 +57,7 @@
     "name": "the practice",
     "color": "white",
     "date": "10/2004",
-    "value": 100000
+    "value": 1000
   },
   {
     "name": "the practice",
