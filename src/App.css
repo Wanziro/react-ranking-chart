@@ -1,5 +1,5 @@
 #root {
-  padding: 1rem;
+  padding: 2rem;
   width: 100%;
 }
 .item-container {
@@ -47,7 +47,7 @@
 }
 .chart-container .date-container {
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   right: 0;
   z-index: 1;
   transition: 0.5s;
