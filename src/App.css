@@ -30,6 +30,7 @@
 .item-contents-wrapper p:last-child {
   margin: 0;
   margin-left: 10px;
+  min-width: 50px;
 }
 
 .bar {

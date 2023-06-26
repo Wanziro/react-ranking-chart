@@ -13,8 +13,11 @@ function DataItem({
   allItems,
   currentDateCounter,
 }: IDataItemProps) {
+  //interval
+  let counterInterval: any = null;
   const [percentage, setPercentage] = useState<number>(0);
   const [position, setPosition] = useState<number>(0);
+  const [counter, setCounter] = useState(0);
   useEffect(() => {
     const index = allItems
       .sort((a, b) => b.value - a.value)
@@ -30,7 +33,25 @@ function DataItem({
     setPercentage(Number(per.toFixed(2)));
   }, [highestValue]);
 
-  useEffect(() => {}, [currentDateCounter]);
+  useEffect(() => {
+    counterInterval = setInterval(() => {
+      let initial = item.value > 0 ? item.value - item.updatedValue : 0;
+
+      const update = counter + 1;
+      if (item.value !== 0 && item.updatedValue > 0 && update > item.value) {
+        clearInterval(counterInterval);
+        setCounter(item.value);
+      } else {
+        if (update < initial) {
+          setCounter(initial);
+        } else {
+          setCounter(update);
+        }
+      }
+    }, 1);
+
+    return () => clearInterval(counterInterval);
+  }, [currentDateCounter, counter]);
   return (
     <div
       className="item-container"
@@ -39,7 +60,7 @@ function DataItem({
       <div className="item-contents-wrapper">
         <p>{item.name}</p>
         <div className="bar" style={{ backgroundColor: item.color }}></div>
-        <p>{item.value === 0 ? item.updatedValue : item.value}</p>
+        <p>{counter}</p>
       </div>
     </div>
   );

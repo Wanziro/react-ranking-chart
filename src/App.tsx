@@ -75,7 +75,7 @@ function App() {
         } else {
           clearInterval(dateCounterInterval);
         }
-      }, 1000);
+      }, 3000);
     }
     return () => {
       clearInterval(dateCounterInterval);
