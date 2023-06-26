@@ -140,6 +140,7 @@ function App() {
           allItems={dataVisualizer}
           highestValue={highestValue}
           currentDateCounter={currentDateCounter}
+          sortedDates={sortedDates}
         />
       ))}
       <div className="date-container">

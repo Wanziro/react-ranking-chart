@@ -6,12 +6,14 @@ interface IDataItemProps {
   highestValue: undefined | IdataVisualizer;
   allItems: IdataVisualizer[];
   currentDateCounter: number;
+  sortedDates: string[];
 }
 function DataItem({
   item,
   highestValue,
   allItems,
   currentDateCounter,
+  sortedDates,
 }: IDataItemProps) {
   //interval
   let counterInterval: any = null;
@@ -34,6 +36,11 @@ function DataItem({
   }, [highestValue]);
 
   useEffect(() => {
+    if (currentDateCounter === sortedDates.length - 1) {
+      clearInterval(counterInterval);
+      setCounter(item.value);
+      return;
+    }
     counterInterval = setInterval(() => {
       let initial = item.value > 0 ? item.value - item.updatedValue : 0;
 
