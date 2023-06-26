@@ -10,6 +10,7 @@ import theOc from "./the-oc.json";
 import thePractice from "./the-practice.json";
 import theShield from "./the-shield.json";
 import theSopranos from "./the-sopranos.json";
+import prisonBreak from "./prison-break.json";
 
 export const movies_for_2007 = [
   ...battlestar,
@@ -24,4 +25,5 @@ export const movies_for_2007 = [
   ...thePractice,
   ...theShield,
   ...theSopranos,
+  ...prisonBreak,
 ];
