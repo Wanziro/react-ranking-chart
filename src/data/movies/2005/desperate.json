@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Desperate Housewives",
+    "color": "brown",
+    "date": "08/2004",
+    "value": 100
+  },
+  {
+    "name": "Desperate Housewives",
+    "color": "brown",
+    "date": "09/2004",
+    "value": 90
+  },
+  {
+    "name": "Desperate Housewives",
+    "color": "brown",
+    "date": "10/2004",
+    "value": 100000
+  },
+  {
+    "name": "Desperate Housewives",
+    "color": "brown",
+    "date": "11/2004",
+    "value": 200
+  },
+  {
+    "name": "Desperate Housewives",
+    "color": "brown",
+    "date": "12/2004",
+    "value": 0
+  }
+]

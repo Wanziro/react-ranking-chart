@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import movieData from "./data/movies.json";
 import DataItem from "./components/data-item";
 import { monthNames } from "./constants";
+import { movieData } from "./data/movies";
 
 interface Idata {
   name: string;
@@ -75,7 +75,7 @@ function App() {
         } else {
           clearInterval(dateCounterInterval);
         }
-      }, 3000);
+      }, 2000);
     }
     return () => {
       clearInterval(dateCounterInterval);
