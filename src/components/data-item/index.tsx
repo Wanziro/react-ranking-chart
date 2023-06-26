@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { IdataVisualizer } from "../../App";
+import { numberFormatter } from "../../helpers";
 
 interface IDataItemProps {
   item: IdataVisualizer;
@@ -67,7 +68,7 @@ function DataItem({
       <div className="item-contents-wrapper">
         <p>{item.name}</p>
         <div className="bar" style={{ backgroundColor: item.color }}></div>
-        <p>{counter}</p>
+        <p>{numberFormatter(counter)}</p>
       </div>
     </div>
   );
