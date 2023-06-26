@@ -5,8 +5,14 @@ interface IDataItemProps {
   item: IdataVisualizer;
   highestValue: undefined | IdataVisualizer;
   allItems: IdataVisualizer[];
+  currentDateCounter: number;
 }
-function DataItem({ item, highestValue, allItems }: IDataItemProps) {
+function DataItem({
+  item,
+  highestValue,
+  allItems,
+  currentDateCounter,
+}: IDataItemProps) {
   const [percentage, setPercentage] = useState<number>(0);
   const [position, setPosition] = useState<number>(0);
   useEffect(() => {
@@ -23,6 +29,8 @@ function DataItem({ item, highestValue, allItems }: IDataItemProps) {
     const per = (item.value / highestValue.value) * 100;
     setPercentage(Number(per.toFixed(2)));
   }, [highestValue]);
+
+  useEffect(() => {}, [currentDateCounter]);
   return (
     <div
       className="item-container"
@@ -31,7 +39,7 @@ function DataItem({ item, highestValue, allItems }: IDataItemProps) {
       <div className="item-contents-wrapper">
         <p>{item.name}</p>
         <div className="bar" style={{ backgroundColor: item.color }}></div>
-        <p>{item.value}</p>
+        <p>{item.value === 0 ? item.updatedValue : item.value}</p>
       </div>
     </div>
   );

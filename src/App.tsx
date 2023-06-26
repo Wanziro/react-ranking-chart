@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import movieData from "./data/movies.json";
 import DataItem from "./components/data-item";
+import { monthNames } from "./constants";
 
 interface Idata {
   name: string;
@@ -118,16 +119,32 @@ function App() {
       })[0]
     );
   }, [currentDateCounter]);
+
+  const returnCurrentDate = () => {
+    try {
+      const [month, year] = sortedDates[currentDateCounter].split("/");
+      const index = Number(month) - 1;
+      const name = monthNames[index];
+      return `${name} ${year}`;
+    } catch (error) {
+      return "-";
+    }
+  };
+
   return (
-    <div style={{ position: "relative", width: "100%" }}>
+    <div className="chart-container">
       {dataVisualizer.map((item, index) => (
         <DataItem
           key={index}
           item={item}
           allItems={dataVisualizer}
           highestValue={highestValue}
+          currentDateCounter={currentDateCounter}
         />
       ))}
+      <div className="date-container">
+        <p>{returnCurrentDate()}</p>
+      </div>
     </div>
   );
 }
