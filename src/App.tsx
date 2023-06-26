@@ -23,7 +23,6 @@ function App() {
   //intervals
   //date counter
   let dateCounterInterval: any = null;
-
   const [data, setData] = useState<Idata[]>(movieData as any);
   const [sortedDates, setSortedDates] = useState<string[]>([]);
   const [dataVisualizer, setDataVisualizer] = useState<IdataVisualizer[]>([]);
