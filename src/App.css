@@ -47,7 +47,7 @@
 }
 .chart-container .date-container {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   right: 0;
   z-index: 1;
   transition: 0.5s;
